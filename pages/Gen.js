@@ -39,6 +39,8 @@ var splitTitle = doc.splitTextToSize($('#textarea').val(), 270);
     <textarea class="text" id="com" rows='20' cols='100' type='text' onChange={(e)=>this.myfun(e)} >
     {this.state.value}
     </textarea>
+      <br />
+      <br />
       <button class ="button" onClick={this.jspdfGenerator}>Generate_pdf</button>
       <style jsx global>
         {`
@@ -75,6 +77,7 @@ var splitTitle = doc.splitTextToSize($('#textarea').val(), 270);
              }
              .text{
               margin-left:160px;
+              align:center;
             }
         `}
       </style>
