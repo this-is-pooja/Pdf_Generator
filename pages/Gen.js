@@ -35,8 +35,8 @@ var splitTitle = doc.splitTextToSize($('#textarea').val(), 270);
   render(){
     return(
       <Layout>
-    <div style={{align:"center"}}>
-    <textarea className="text" id="com" rows='20' cols='100' type='text' onChange={(e)=>this.myfun(e)} >
+    <div style={{marginTop:"2rem",marginLeft:"8rem"}}>
+    <textarea className="text" id="com" rows='22' cols='100' type='text' onChange={(e)=>this.myfun(e)} >
     {this.state.value}
     </textarea>
       <br />
@@ -77,7 +77,7 @@ var splitTitle = doc.splitTextToSize($('#textarea').val(), 270);
              }
              .text{
               margin-left:160px;
-              border-radius: 15px;
+              border-radius: 6px;
             }
         `}
       </style>
