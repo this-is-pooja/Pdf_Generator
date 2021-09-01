@@ -4,13 +4,14 @@ import Link from 'next/link';
 const IndexPage=()=> (
   <Layout>
     <div>
+      <br />
       <h1>
         <strong>Generate your pdf.......</strong>
       </h1>
       <h2>easily generate your pdf with gen.pdf</h2>
       
       <br />
-      
+      <br />
       <Link href="/Gen" passHref>
       <Button variant="contained" color="secondary">Go to write text</Button>
       </Link>
