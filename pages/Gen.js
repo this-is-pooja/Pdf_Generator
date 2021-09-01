@@ -76,7 +76,7 @@ var splitTitle = doc.splitTextToSize($('#textarea').val(), 270);
             transform: translateY(4px);
              }
              .text{
-              margin-left:160px;
+              margin-left:16rem;
               border-radius: 6px;
             }
         `}
